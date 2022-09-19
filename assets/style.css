@@ -22,6 +22,9 @@ section {
     --res--dark: #5A6E7F;
     --res--warning: #FCC15F;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* #endregion */
 
@@ -89,8 +92,16 @@ header .logo,
 header .nav {
     padding: 1rem 0;
 }
+header .nav.row {
+    display: none;
+}
+.bar {
+    color: var(--res--white);
+    font-size: 2rem;
+}
+
 header .nav {
-    
+    font-size: 0.9rem;
 }
 header li {
     display: inline-block;
@@ -105,6 +116,7 @@ header a {
     background-color: var(--res--white);
     padding: 0.5rem 0.8rem;
     border-radius: 20px;
+    
 }
 
 
@@ -166,6 +178,13 @@ footer {
     footer .container {
         width: 30%;
     }
+    header .bar.row {
+        display: none;
+    }
+    header .nav.row {
+        display: flex;
+    }
+    
 }
 /* #endregion */
 
