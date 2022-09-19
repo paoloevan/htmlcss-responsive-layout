@@ -34,7 +34,7 @@ section {
     justify-content: space-between;
 }
 .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 .col_12 {
@@ -48,7 +48,7 @@ section {
 }
 /* #endregion */
 
-/* debug */
+/* #region debug */
 .debug header {
     height: 80px;
     background-color: var(--res--secondary);
@@ -69,6 +69,12 @@ section {
 
 /* media query */
 @media screen and (min-width: 768px) {
+    .demo .col_md_8 {
+        width: calc(100% / 12 * 8);
+    }
+    .demo .col_md_4 {
+        width: calc(100% / 12 * 4);
+    }
 }
 
 @media screen and (min-width: 1280px) {
