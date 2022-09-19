@@ -1,0 +1,17 @@
+/* #region common rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+
+
+
