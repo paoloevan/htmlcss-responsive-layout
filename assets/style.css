@@ -26,6 +26,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h5 {
+    color: var(--res--secondary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+a {
+    text-decoration: none;
+}
 /* #endregion */
 
 /* #region utilities */
@@ -108,7 +117,6 @@ header li {
     padding: 0 1rem;
 }
 header a {
-    text-decoration: none;
     color: var(--res--white);
 }
 .button a {
@@ -119,7 +127,7 @@ header a {
     
 }
 
-
+/* #endregion */
 
 
 /* #region main */
@@ -128,6 +136,33 @@ header a {
 .banner {
     background-color: var(--res--primary);
 }
+
+.demo>.col_12,
+.demo .col_md_8,
+.demo .col_md_4 {
+    background-color: var(--res--secondary-light);
+    margin: 0rem;
+    border-radius: 20px;
+}
+.demo .col_mx_6 {
+    padding:0 1rem;
+}
+.demo p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.demo a {
+    color: var(--res--white);
+    background-color: #0084FC;
+    padding: 0.5rem 3rem;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+
+
+
 
 footer {
     background-color: var(--res--footer);
@@ -162,6 +197,9 @@ footer {
     .container {
         width: 70%;
     }
+    .demo .col_mx_6 {
+        width: calc(100% / 12 * 6);
+    }    
     .planning .col_md_6 {
         width: calc(100% / 12 * 6);
     }
