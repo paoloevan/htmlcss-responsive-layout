@@ -83,6 +83,12 @@ section {
     .benefits .col_md_6 {
         width: calc(100% / 12 * 6);
     }
+    .about_us .col_md_7 {
+        width: calc(100% / 12 * 7);
+    }
+    .about_us .col_md_5 {
+        width: calc(100% / 12 * 5);
+    }
 
 }
 
@@ -94,6 +100,12 @@ section {
         width: calc(100% / 12 * 6);
     }
     .benefits .col_mx_4 {
+        width: calc(100% / 12 * 4);
+    }
+    .about_us .col_mx_8 {
+        width: calc(100% / 12 * 8);
+    }
+    .about_us .col_mx_4 {
         width: calc(100% / 12 * 4);
     }
 }
