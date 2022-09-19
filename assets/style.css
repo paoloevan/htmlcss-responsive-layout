@@ -28,6 +28,7 @@ section {
 /* #region utilities */
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 .space_between {
     justify-content: space-between;
@@ -36,7 +37,15 @@ section {
     width: 90%;
     margin: auto;
 }
-
+.col_12 {
+    width: 100%;
+}
+.col_4 {
+    width: calc(100% / 12 * 4);
+}
+.col_8 {
+    width: calc(100% / 12 * 8);
+}
 /* #endregion */
 
 /* debug */
@@ -47,6 +56,10 @@ section {
 .debug .logo,
 .debug .nav {
     height: 60px;
+    border: 1px solid;
+}
+.col_12 {
+    height: 30px;
     border: 1px solid;
 }
 
