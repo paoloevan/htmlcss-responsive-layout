@@ -160,6 +160,9 @@ header a {
     background-color: var(--res--primary);
 }
 
+/***********************
+        DEMO    
+************************/
 .card {
     background-color: var(--res--secondary-light);
     margin: 0rem;
@@ -182,16 +185,26 @@ header a {
     font-weight: 500;
 }
 
-.demo .text_center i {
+.demo .card i {
     margin-bottom: 1rem;
     color: var(--res--secondary);
     font-size: 4rem;
     padding-top: 1.5rem;
 }
 
+.demo .card .fa-apple {
+    color: var(--res--white);
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
 .demo img {
     margin-top: 2rem;
 }
+
+/***********************
+        PLANNING
+************************/
 
 .planning h1 {
     color: var(--res--white);
@@ -207,9 +220,13 @@ header a {
 .card_white {
     background-color: var(--res--white);
     border-radius: 40px;
-    margin-top: 1rem;
+}
+
+.planning .card_white {
     padding: 1rem 0;
     text-align: center;
+    margin-top: 1rem;
+
 }
 
 .planning .card_white p {
@@ -231,11 +248,12 @@ header a {
     margin-top: 1rem;
 }
 
+/***********************
+        TESTIMONIALS
+************************/
+
 .title_testimonials {
     text-align: center;
-}
-
-.testimonials h6 {
 }
 
 .testimonials h2 {
@@ -248,6 +266,9 @@ header a {
     line-height: 2rem;
 }
 
+/***********************
+        QUOTE
+************************/
 .quote {
     background-color: var(--res--primary);
     border-radius: 30px;
@@ -270,6 +291,53 @@ header a {
     font-weight: 600;
     margin: 1rem 0;
 }
+
+/***********************
+        BENEFITS
+************************/
+
+.benefits h2 {
+    color: var(--res--white);
+    margin-bottom: 2rem;
+}
+
+.benefits .card_white {
+    padding: 2rem;
+}
+
+.benefits .card_white h1,
+.benefits .card_white h5 {
+    color: var(--res--primary);
+}
+
+.benefits .card_white p {
+    color: var(--res--dark);
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.card_white a {
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    color: var(--res--white);
+    background-color: var(--res--primary);
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+}
+
+/***********************
+        ABOUT US
+************************/
+
+
+
+
+
+
+
+
+
+
 
 
 
