@@ -415,16 +415,17 @@ header a {
     color: var(--res--white);
     margin-top: 2rem;
 }
-
-
-
-
-
-
+/* #endregion */
 
 /* #region footer */
 footer {
     background-color: var(--res--footer);
+}
+
+footer p {
+    color: var(--res--white);
+    padding: 2rem;
+    text-align: center;
 }
 /* #endregion */
 
