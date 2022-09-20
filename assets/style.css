@@ -26,11 +26,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 h5 {
     color: var(--res--secondary);
     font-size: 1.5rem;
     font-weight: 600;
     padding: 1rem 0;
+}
+p {
+    font-size: 0.9rem;
 }
 a {
     text-decoration: none;
@@ -153,7 +161,6 @@ header a {
     padding:0 1rem;
 }
 .demo p {
-    font-size: 0.9rem;
     line-height: 2rem;
     margin-bottom: 2rem;
     padding: 1rem;
@@ -177,16 +184,51 @@ header a {
     margin-top: 2rem;
 }
 
+.planning h1 {
+    color: var(--res--white);
+    margin: 3rem 0;
+}
 
+.planning p {
+    color: var(--res--white);
+    line-height: 2rem;
+    font-weight: 500;
+}
 
+.card_white {
+    background-color: var(--res--white);
+    border-radius: 40px;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+}
 
+.planning .card_white p {
+    color: var(--res--black);
+    font-style: italic;
+}
 
+.planning .card_white h5 {
+    color: var(--res--black);
+}
+
+.planning .card_white i {
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+    color: var(--res--black);
+    background-color: var(--res--primary);
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* #region footer */
 footer {
     background-color: var(--res--footer);
 }
 /* #endregion */
 
-/* media query */
+/*#region media query */
 @media screen and (min-width: 480px) {
     .demo .col_md_8 {
         width: calc(100% / 12 * 8);
@@ -239,7 +281,18 @@ footer {
     header .nav.row {
         display: flex;
     }
-    
+    .planning .container{
+        width: 60%;
+    }
+    .planning .row {
+        align-items: flex-end;
+    }
+    .card_white img {
+        width: 50%;
+    }
+    .planning .col_md_6 {
+        padding: 2rem;
+    }
 }
 /* #endregion */
 
