@@ -31,11 +31,20 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 1.9rem;
+}
+
 h5 {
     color: var(--res--secondary);
     font-size: 1.5rem;
     font-weight: 600;
     padding: 1rem 0;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 p {
     font-size: 0.9rem;
@@ -222,6 +231,35 @@ header a {
     margin-top: 1rem;
 }
 
+.title_testimonials {
+    text-align: center;
+}
+
+.testimonials h6 {
+}
+
+.testimonials h2 {
+    color: var(--res--primary);
+    margin: 1rem 0;
+}
+
+.testimonials p {
+    padding: 0 1rem;
+    line-height: 2rem;
+}
+
+.quote {
+    background-color: var(--res--primary);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.quote img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+
 /* #region footer */
 footer {
     background-color: var(--res--footer);
@@ -244,6 +282,12 @@ footer {
     }
     .about_us .col_md_5 {
         width: calc(100% / 12 * 5);
+    }
+    .quote .col_md_4 {
+        width: calc(100% / 12 * 4);
+    }
+    .quote .col_md_8 {
+        width: calc(100% / 12 * 8);
     }
     .banner .container,
     footer .container {
@@ -270,6 +314,12 @@ footer {
     }
     .about_us .col_mx_4 {
         width: calc(100% / 12 * 4);
+    }
+    .quote .col_mx_2 {
+        width: calc(100% / 12 * 2);
+    }
+    .quote .col_mx_10 {
+        width: calc(100% / 12 * 10);
     }
     .banner .container,
     footer .container {
