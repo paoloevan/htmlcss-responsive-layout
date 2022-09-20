@@ -261,6 +261,7 @@ header a {
     margin: 1rem 0;
     border-radius: 50%;
     aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .quote p,
@@ -280,6 +281,10 @@ footer {
 
 /*#region media query */
 @media screen and (min-width: 480px) {
+    .banner .container,
+    footer .container {
+        width: 80%;
+    }
     .demo .col_md_8 {
         width: calc(100% / 12 * 8);
     }
@@ -301,11 +306,9 @@ footer {
     .quote .col_md_8 {
         width: calc(100% / 12 * 8);
     }
-    .banner .container,
-    footer .container {
-        width: 80%;
+    .quote img {
+        width: 70%;
     }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -354,6 +357,9 @@ footer {
     }
     .planning .col_md_6 {
         padding: 2rem;
+    }
+    .quote img {
+        width: 90%;
     }
 }
 /* #endregion */
