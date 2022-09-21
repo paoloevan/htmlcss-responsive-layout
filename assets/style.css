@@ -437,7 +437,7 @@ footer p {
 /* #endregion */
 
 /*#region media query */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 769px) {
     .container {
         max-width: 720px;
     }
@@ -481,9 +481,9 @@ footer p {
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
     .container {
-        padding: 0 2rem;
+        padding: 0 4rem;
         max-width: 1140px;
     }
     .demo .col_mx_6 {
